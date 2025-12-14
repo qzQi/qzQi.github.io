@@ -1,0 +1,23 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "description": "个人技术博客 - 记录后端开发笔记",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [
+    "blog",
+    "vitepress",
+    "C++",
+    "Go",
+    "backend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0"
+  }
+}
