@@ -24,7 +24,7 @@
 
 ## 📫 联系方式
 
-- GitHub: [your-username](https://github.com/your-username)
+- GitHub: [your-username](https://github.com/qzQi)
 - Email: your-email@example.com
 
 ## 🎯 2025 学习目标

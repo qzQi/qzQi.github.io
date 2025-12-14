@@ -43,7 +43,7 @@ export default defineConfig({
 
     // 社交链接
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/your-username' }
+      { icon: 'github', link: 'https://github.com/qzQi' }
     ],
 
     // 页脚
@@ -89,6 +89,6 @@ export default defineConfig({
 
   // 站点地图
   sitemap: {
-    hostname: 'https://your-username.github.io'
+    hostname: 'https://qzQi.github.io'
   }
 })
