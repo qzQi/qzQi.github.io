@@ -77,8 +77,8 @@ git commit -m "Initial commit"
 git remote add origin https://github.com/<你的用户名>/<你的用户名>.github.io.git
 
 # 推送（如果提示需要设置分支名）
-git branch -M main
-git push -u origin main
+git branch -M master
+git push -u origin master
 ```
 
 如果推送时需要登录，使用 GitHub Personal Access Token。
