@@ -16,7 +16,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '后端笔记', link: '/posts/backend/' },
-      { text: '前端学习', link: '/posts/frontend/' },
+      { text: '未分类', link: '/posts/cookies/' },
       { text: '关于', link: '/about' }
     ],
 
@@ -26,16 +26,17 @@ export default defineConfig({
         {
           text: '后端开发',
           items: [
-            { text: 'C++ 进阶', link: '/posts/backend/cpp-advanced' },
-            { text: 'Go 实践', link: '/posts/backend/go-practice' }
+            { text: '开发语言', link: '/posts/backend/language/' },
+            { text: '中间件', link: '/posts/backend/middleware/' },
+            { text: '工具', link: '/posts/backend/build-tool/' }
           ]
         }
       ],
-      '/posts/frontend/': [
+      '/posts/cookies/': [
         {
-          text: '前端学习',
+          text: '杂项',
           items: [
-            { text: 'HTML & CSS 基础', link: '/posts/frontend/html-css-basics' }
+            { text: 'Cookies 笔记', link: '/posts/cookies/' }
           ]
         }
       ]
