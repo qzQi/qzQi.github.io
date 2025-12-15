@@ -29,9 +29,6 @@ features:
 ---
 
 ## 最新文章
-
-- [C++ 进阶技巧](/posts/backend/cpp-advanced)
-- [Go 实践指南](/posts/backend/go-practice)
 - [HTML & CSS 基础](/posts/frontend/html-css-basics)
 
 ## 关于本站
