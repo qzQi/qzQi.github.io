@@ -10,7 +10,7 @@
 - [C++ test3](./C++/test3.md)
 
 ### Go 相关
-- [Go 实践指南](./go-practice.md)
+- [Go 实践指南](./Go/go-practice.md)
 
 ## 分类
 
