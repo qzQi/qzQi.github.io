@@ -17,19 +17,15 @@ features:
   - icon: 🖥️
     title: 开发语言
     details: C++ 和 Go 语言的深度学习、性能优化、最佳实践
-    link: /posts/cpp/
   - icon: 🗄️
     title: 数据库
     details: MySQL、MongoDB 的设计、优化与高可用方案
-    link: /posts/mysql/
   - icon: 🔄
     title: 中间件
     details: Redis、Kafka、gRPC 等分布式系统中间件解析
-    link: /posts/redis/
   - icon: 🚀
     title: RPC 框架
     details: gRPC、Sofa-PBRPC 等 RPC 框架深度剖析
-    link: /posts/grpc/
 ---
 
 ## 知识体系

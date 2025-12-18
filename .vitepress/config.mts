@@ -36,7 +36,8 @@ export default defineConfig({
           {
             text: '数据库相关',
             items: [
-              { text: 'MySQL', link: '/posts/mysql/' }
+              { text: 'MySQL', link: '/posts/mysql/' },
+              { text: 'MongoDB', link: '/posts/mongodb/' }
             ]
           },
           { text: '', divider: true },
@@ -44,8 +45,7 @@ export default defineConfig({
             text: '中间件相关',
             items: [
               { text: 'Redis', link: '/posts/redis/' },
-              { text: 'Kafka', link: '/posts/kafka/' },
-              { text: 'MongoDB', link: '/posts/mongodb/' }
+              { text: 'Kafka', link: '/posts/kafka/' }
             ]
           },
           { text: '', divider: true },
