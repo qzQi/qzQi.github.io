@@ -27,6 +27,7 @@ export default defineConfig({
         items: [
           {
             text: '开发语言',
+            link: '#',
             items: [
               { text: 'C++', link: '/posts/cpp/' },
               { text: 'Go', link: '/posts/go/' }
@@ -35,6 +36,7 @@ export default defineConfig({
           { text: '', divider: true },
           {
             text: '数据库相关',
+            link: '#',
             items: [
               { text: 'MySQL', link: '/posts/mysql/' },
               { text: 'MongoDB', link: '/posts/mongodb/' }
@@ -43,6 +45,7 @@ export default defineConfig({
           { text: '', divider: true },
           {
             text: '中间件相关',
+            link: '#',
             items: [
               { text: 'Redis', link: '/posts/redis/' },
               { text: 'Kafka', link: '/posts/kafka/' }
@@ -50,6 +53,7 @@ export default defineConfig({
           },
           { text: '', divider: true },
           {
+            link: '#',
             text: 'RPC 相关',
             items: [
               { text: 'gRPC', link: '/posts/grpc/' },
