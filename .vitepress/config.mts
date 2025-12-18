@@ -1,4 +1,11 @@
 import { defineConfig } from 'vitepress'
+import { cppSidebar } from './sidebars/cpp.mts'
+import { goSidebar } from './sidebars/go.mts'
+import { mysqlSidebar } from './sidebars/mysql.mts'
+import { mongodbSidebar } from './sidebars/mongodb.mts'
+import { redisSidebar } from './sidebars/redis.mts'
+import { kafkaSidebar } from './sidebars/kafka.mts'
+import { grpcSidebar } from './sidebars/grpc.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -15,31 +22,54 @@ export default defineConfig({
     // 导航栏
     nav: [
       { text: '首页', link: '/' },
-      { text: '后端笔记', link: '/posts/backend/' },
-      { text: '未分类', link: '/posts/cookies/' },
+      {
+        text: '后端',
+        items: [
+          {
+            text: '开发语言',
+            items: [
+              { text: 'C++', link: '/posts/cpp/' },
+              { text: 'Go', link: '/posts/go/' }
+            ]
+          },
+          { text: '', divider: true },
+          {
+            text: '数据库相关',
+            items: [
+              { text: 'MySQL', link: '/posts/mysql/' }
+            ]
+          },
+          { text: '', divider: true },
+          {
+            text: '中间件相关',
+            items: [
+              { text: 'Redis', link: '/posts/redis/' },
+              { text: 'Kafka', link: '/posts/kafka/' },
+              { text: 'MongoDB', link: '/posts/mongodb/' }
+            ]
+          },
+          { text: '', divider: true },
+          {
+            text: 'RPC 相关',
+            items: [
+              { text: 'gRPC', link: '/posts/grpc/' },
+              { text: 'Sofa-PBRPC', link: '/posts/sofa-pbrpc/' }
+            ]
+          }
+        ]
+      },
       { text: '关于', link: '/about' }
     ],
 
     // 侧边栏
     sidebar: {
-      '/posts/backend/': [
-        {
-          text: '后端开发',
-          items: [
-            { text: '开发语言', link: '/posts/backend/language/' },
-            { text: '中间件', link: '/posts/backend/middleware/' },
-            { text: '工具', link: '/posts/backend/build-tool/' }
-          ]
-        }
-      ],
-      '/posts/cookies/': [
-        {
-          text: '杂项',
-          items: [
-            { text: 'Cookies 笔记', link: '/posts/cookies/' }
-          ]
-        }
-      ]
+      '/posts/cpp/': cppSidebar,
+      '/posts/go/': goSidebar,
+      '/posts/mysql/': mysqlSidebar,
+      '/posts/mongodb/': mongodbSidebar,
+      '/posts/redis/': redisSidebar,
+      '/posts/kafka/': kafkaSidebar,
+      '/posts/grpc/': grpcSidebar
     },
 
     // 社交链接
