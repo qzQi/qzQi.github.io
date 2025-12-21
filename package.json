@@ -19,5 +19,8 @@
   "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.0.0"
+  },
+  "dependencies": {
+    "@giscus/vue": "^3.1.1"
   }
 }
